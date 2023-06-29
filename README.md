@@ -12,17 +12,22 @@ In order to set up the database, please follow the procedure below:
 
 The solution is implemented using clean architecture. It contains the following projects:
 
-1. Anixe.Core
-   This is the core project of the solution where all the Entities/Models and Abstractions are located.
+**1. Anixe.Core**
    
-2. Anixe.Infrastructure
-   This project includes the implementation of the repositories and the database migrations.
+      This is the core project of the solution where all the Entities/Models and Abstractions are located.
    
-3. Anixe.Business
-   The implementation of the business logic of the API is located in this project.
+**2. Anixe.Infrastructure**
+   
+      This project includes the implementation of the repositories and the database migrations.
+   
+**3. Anixe.Business**
+   
+      The implementation of the business logic of the API is located in this project.
 
-4. Anixe.API
-   This is the entry project of the solution, and it contains the controllers and a custom exception handler middleware.
+**4. Anixe.API**
    
-5. Anixe.Tests
-   The unit tests for the solution can be found in this project.
+      This is the entry project of the solution, and it contains the controllers and a custom exception handler middleware.
+   
+**5. Anixe.Tests**
+   
+      The unit tests for the solution can be found in this project.
